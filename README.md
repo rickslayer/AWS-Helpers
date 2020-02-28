@@ -1,17 +1,16 @@
 # AWS-Helpers
 
-# AWS LOGIN CLI
-
+### AWS LOGIN CLI
 |Command | Description |
 | ------- | ----------- |
 | `aws configure` | On CLI ask for your client and secret keys |
 
-# AWS ECR 
+### AWS ECR 
 |Command | Description |
 | ------- | ----------- |
 | `aws ecr describe-repositories` | List your repositories in ECR |
 
-## UPLOADING DOCKER IMAGE TO AWS ECR
+### UPLOADING DOCKER IMAGE TO AWS ECR
 |Command | Description |
 | ------- | ----------- |
 | `docker tag image:version {repositoryURI}` | taging your image |
