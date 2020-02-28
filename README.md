@@ -16,7 +16,8 @@
 | `docker tag image:version {repositoryURI}` | taging your image |
 | `aws ecr get-login --region us-east-1 > text.txt` |Retriving the login token and put in a txt file|
 |`docker login -u AWS {repositoryURI} -p --password-stdin text.txt` | Loging in your register|
-|`docker push {repositoryUri}/{image-tag}:latest`|Push your image to your ECR repository|
+|`docker push {repositoryUri}/{image-tag}:latest`|Push your image to your ECR repository| 
+|`aws ecr --repository-name={repositoryName} describe-images`| Now you can check the images passing by repository name|
 `
 
 
