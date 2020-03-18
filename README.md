@@ -4,6 +4,12 @@
 |Command | Description |
 | ------- | ----------- |
 | `aws configure` | On CLI ask for your client and secret keys |
+### AWS ECS CLI
+|Command | Description |
+| ------- | ----------- |
+| `ecs-cli configure --cluster fancy-cluster --default-launch-type EC2 --config-name fancy-cluster --region us-west-2` | Create a new cluster using ECS |
+|`ecs-cli up --keypair vockey --capability-iam --size 4 --instance-type m4.large --cluster-config fancy-cluster --port 8080`| Create a EC2 Instances
+
 
 ### AWS ECR 
 |Command | Description |
